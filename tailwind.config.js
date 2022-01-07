@@ -6,15 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        pink: {
-          light: '#ff60ff',
-          default: '#ff00cc',
-          dark: '#c7009b',
+        pluple: {
+          light: '#360033',
+          dark: '#18000e',
         },
-        blue: {
-          light: '#685dcb',
-          default: '#333399',
-          dark: '#000d6a',
+        cyan: {
+          light: '#0b8793',
+          dark: '#005a65',
         },
       },
     },
