@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
     <Link href={route}>
       <a>
         <span
-          className="mx-2 cursor-pointer hover:border-b-4 hover:text-pink-default"
+          className="mx-2 cursor-pointer hover:border-b-4 hover:text-cyan-light dark:hover:text-cyan-dark"
           onClick={() => setActive(name)}
           onKeyPress={() => setActive(name)}
           role="button"

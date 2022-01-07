@@ -2,7 +2,7 @@
 import React, { FunctionComponent } from 'react';
 import { IService } from '../type';
 
-const NavItem: FunctionComponent<{ service: IService }> = ({
+const ServiceCard: FunctionComponent<{ service: IService }> = ({
   service: { Icon, about, title },
 }) => {
   const createMarkup = () => {
@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{ service: IService }> = ({
   };
   return (
     <div className="flex items-center p-2 space-x-4">
-      <Icon className="w-12 h-12 text-pink-default" />
+      <Icon className="w-12 h-12 text-cyan-light dark:text-cyan-dark" />
       <div>
         <h4 className="font-bold">{title}</h4>
         <h4 dangerouslySetInnerHTML={createMarkup()} />
@@ -21,4 +21,4 @@ const NavItem: FunctionComponent<{ service: IService }> = ({
   );
 };
 
-export default NavItem;
+export default ServiceCard;
