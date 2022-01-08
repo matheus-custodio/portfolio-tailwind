@@ -31,8 +31,7 @@ function Projects() {
       initial="initial"
       animate="animate"
       exit="exit"
-      className="px-5 py-2 overflow-y-scroll"
-      style={{ height: '65vh' }}
+      className="px-5 py-2 overflow-y-scroll h-[65vh] xl:h-[85vh]"
     >
       <ProjectsNavBar
         handlerFilterCategory={handlerFilterCategory}

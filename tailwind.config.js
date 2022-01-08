@@ -5,6 +5,13 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1690px',
+    },
     boxShadow: {
       'custom-light': ' 0 0 10px #313131',
       'custom-dark': '5px 5px 10px #0a0c0e , -5px -5px 10px #14161c',

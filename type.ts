@@ -23,4 +23,4 @@ export interface IProject {
   keyTechs: string[];
 }
 
-export type Category = 'react' | 'solicity';
+export type Category = 'react' | 'solidity';

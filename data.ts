@@ -13,67 +13,67 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: 'Smart Contract Development',
     about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
+      'Developing, testing and implementation of contracts, using <b>solidity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
   {
     Icon: RiComputerLine,
     title: 'Smart Contract Development',
     about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
+      'Developing, testing and implementation of contracts, using <b>solidity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
   {
     Icon: RiComputerLine,
     title: 'Smart Contract Development',
     about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
+      'Developing, testing and implementation of contracts, using <b>solidity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
   {
     Icon: RiComputerLine,
     title: 'Smart Contract Development',
     about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
+      'Developing, testing and implementation of contracts, using <b>solidity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
   {
     Icon: RiComputerLine,
     title: 'Smart Contract Development',
     about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
+      'Developing, testing and implementation of contracts, using <b>solidity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
 ];
 
 export const languages: ISkill[] = [
   {
-    name: 'Solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'Solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
@@ -81,37 +81,37 @@ export const languages: ISkill[] = [
 
 export const tools: ISkill[] = [
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
   {
-    name: 'solicity',
+    name: 'solidity',
     level: '70%',
     Icon: BsCircleFill,
   },
@@ -125,8 +125,8 @@ export const projects: IProject[] = [
     imagePath: '/images/me.jpeg',
     deployedUrl: 'test',
     githubUrl: 'test',
-    category: ['solicity', 'react'],
-    keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
+    category: ['solidity', 'react'],
+    keyTechs: ['React', 'Ethers.js', 'HardHat', 'solidity'],
   },
   {
     id: 2,
@@ -135,8 +135,8 @@ export const projects: IProject[] = [
     imagePath: '/images/me.jpeg',
     deployedUrl: 'test',
     githubUrl: 'test',
-    category: ['solicity', 'react'],
-    keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
+    category: ['solidity', 'react'],
+    keyTechs: ['React', 'Ethers.js', 'HardHat', 'solidity'],
   },
   {
     id: 3,
@@ -146,7 +146,7 @@ export const projects: IProject[] = [
     deployedUrl: 'test',
     githubUrl: 'test',
     category: ['react'],
-    keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
+    keyTechs: ['React', 'Ethers.js', 'HardHat', 'solidity'],
   },
   {
     id: 4,
@@ -155,8 +155,8 @@ export const projects: IProject[] = [
     imagePath: '/images/me.jpeg',
     deployedUrl: 'test',
     githubUrl: 'test',
-    category: ['solicity'],
-    keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
+    category: ['solidity'],
+    keyTechs: ['React', 'Ethers.js', 'HardHat', 'solidity'],
   },
   {
     id: 5,
@@ -165,7 +165,7 @@ export const projects: IProject[] = [
     imagePath: '/images/me.jpeg',
     deployedUrl: 'test',
     githubUrl: 'test',
-    category: ['solicity'],
-    keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
+    category: ['solidity'],
+    keyTechs: ['React', 'Ethers.js', 'HardHat', 'solidity'],
   },
 ];
