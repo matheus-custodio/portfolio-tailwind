@@ -14,16 +14,17 @@ function Sidebar() {
   return (
     <>
       <Image
-        src="/static/me.jpeg"
+        src="/images/me.jpeg"
         alt="avatar"
         className="mx-auto border rounded-full "
-        height="128px"
-        width="128px"
+        height="256px"
+        width="256px"
         layout="intrinsic"
         quality="100"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Matheus</span> Custodio
+      <h3 className="my-4 text-3xl font-medium tracking-wider">
+        <span className="text-cyan-light dark:text-cyan-dark ">Matheus</span>{' '}
+        Custodio
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Smart Contract Developer
