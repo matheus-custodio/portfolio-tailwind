@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body className="bg-gradient-to-r from-purple-light to-cyan-light dark:from-purple-dark dark:to-cyan-dark dark:text-white">
+        <body className="bg-fixed bg-gradient-to-r from-purple-light to-cyan-light dark:from-purple-dark dark:to-cyan-dark dark:text-white">
           <Main />
           <NextScript />
         </body>

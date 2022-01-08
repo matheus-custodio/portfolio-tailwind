@@ -1,12 +1,20 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Bar from '../components/Bar';
 import { languages, tools } from '../data';
+import { fadeInUp, routeAnimation } from '../animation';
 
 const resume = () => {
   return (
-    <div className="px-6 py-2">
+    <motion.div
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      className="px-6 py-2"
+    >
       <div className="grid gap-6 md:grid-cols-2">
-        <div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
@@ -14,8 +22,8 @@ const resume = () => {
             </h5>
             <p className="font-semibold">University Nine of July(2017-2019)</p>
           </div>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
@@ -31,7 +39,7 @@ const resume = () => {
             <h5 className="my-2 text-xl font-bold">FullStack Developer</h5>
             <p className="font-semibold">Kolekto(2019-2021)</p>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -52,7 +60,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

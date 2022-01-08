@@ -39,17 +39,11 @@ export const services: IService[] = [
     about:
       'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
   },
-  {
-    Icon: RiComputerLine,
-    title: 'Smart Contract Development',
-    about:
-      'Developing, testing and implementation of contracts, using <b>solicity</b> and tools such as <b>HardHat</b>,<b>Openzeppelin</b>',
-  },
 ];
 
 export const languages: ISkill[] = [
   {
-    name: 'solicity',
+    name: 'Solicity',
     level: '70%',
     Icon: BsCircleFill,
   },
@@ -125,6 +119,7 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 1,
     name: 'DEX',
     description: 'This is a DEX',
     imagePath: '/images/me.jpeg',
@@ -134,6 +129,7 @@ export const projects: IProject[] = [
     keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
   },
   {
+    id: 2,
     name: 'DEX',
     description: 'This is a DEX',
     imagePath: '/images/me.jpeg',
@@ -143,6 +139,7 @@ export const projects: IProject[] = [
     keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
   },
   {
+    id: 3,
     name: 'DEX',
     description: 'This is a DEX',
     imagePath: '/images/me.jpeg',
@@ -152,6 +149,7 @@ export const projects: IProject[] = [
     keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
   },
   {
+    id: 4,
     name: 'DEX',
     description: 'This is a DEX',
     imagePath: '/images/me.jpeg',
@@ -161,6 +159,7 @@ export const projects: IProject[] = [
     keyTechs: ['React', 'Ethers.js', 'HardHat', 'Solicity'],
   },
   {
+    id: 5,
     name: 'DEX',
     description: 'This is a DEX',
     imagePath: '/images/me.jpeg',
